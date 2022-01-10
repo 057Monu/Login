@@ -7,17 +7,22 @@
     <style>
       body{
         font-family: sans-serif;
-        background-color: white;
+        background-color: pink;
+        padding: 20px 20px;
       }
       section{
-        /* margin: 120px; */
+        margin: 120px;
         display: flex;
-        /* flex-wrap: wrap; */
-        /* flex-direction: column; */
+        flex-wrap: nowrap;
+        flex-direction: row;
         justify-content: center;
-        align-items: center;
-        /* align-content: center; */
+        align-items: baseline;
         /* background-color: lightblue; */
+      }
+      section .write{
+        margin: 8px;
+        color: black;
+        font-size: 22px;
       }
       form{
         /* color: white; */
@@ -35,12 +40,12 @@
         background-color: lightblue; */
       }
 
-      .color{
-        width: 350px;
-        height: 210px;
-        margin: 3vw;
+      /* .color{ */
+        /* width: 350px;
+        height: 210px; */
+        /* margin: 3vw; */
         /* background-color: orange; */
-      }
+      /* } */
       input{
         /* border: 1px solid black;
         border-radius: 5px; */
@@ -50,7 +55,10 @@
         /* padding: 2px; */
         font-family: sans-serif;
         font-size: 18px;
-      
+      }
+      p{
+        font-family: Arial, Helvetica, sans-serif;
+        /* font-size: 22px; */
       }
       #submit {
         height: 40px;
@@ -74,7 +82,11 @@
   <body>
 
   <section>
-    <div class="color">
+    <div class="write">
+      <p>This site help you to connect with your friends
+and other people around the world</p>
+    </div>
+
     <form action="">
     <div class="form-el">
       <!-- <label for="username">Username</label> -->
@@ -91,7 +103,6 @@
     <a href="signup.jsp">Create New Account</a>
     </div>
 </form>
-</div>
 </section>
 
 </html>
