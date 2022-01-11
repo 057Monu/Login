@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <style>
+      body{
+        /* border: 12px solid black; */
+        padding: 20px;
+        font-family: sans-serif;
+      }
+
+      section{
+        /* border: 12px solid green; */
+        margin: 15px;
+        display: -webkit-flex;
+        display: flex;
+        padding: 12px;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .form{
+        /* border: 12px solid black; */
+        /* justify-content: center; */
+        margin: 12px;
+        padding: 12px;
+        background-color: lightgreen;
+        border-radius: 12px;
+        /* justify-content: center; */
+        /* text-align: center; */
+      }
+      form{
+          /* border: 12px solid black; */
+          padding: 12px;
+      }
+      .form-el{
+        text-align: center;
+      }
+      .form-el input{
+        padding: 8px 18px;
+        font-size: 18px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+        /* font-family: Aerial; */
+        font-size: 17px;
+      }
+      button{
+        margin-top: 12px;
+        /* background-color: lightgreen; */
+        color: black;
+        /* border-color: lightblue; */
+        /* border: 1px solid red; */
+        padding: 8px;
+      }
+      .form-sign{
+        text-align: center;
+        /* border-radius: 2px; */
+      }
+      .form-sign input{
+        font-size: 16px;
+        padding: 6px;
+        /* border-radius: 2px; */
+      }
+      .btn-index{
+        text-align: center;
+        /* color: white; */
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <section>
+      <div class="form">
+    <form action="">
+
+    <!-- <label for="username">Username</label> -->
+        <div class="form-el">
+        <input type="text" name="username" placeholder="Username"><br><br>
+      </div>
+        <!-- <label for="email">Email</label> -->
+          <div class="form-el">
+        <input type="email" name="email" placeholder="Email"><br><br>
+        </div>
+        <!-- <label for="password">Password</label> -->
+          <div class="form-el">
+        <input type="password" name="password" placeholder="Password"><br><br>
+        </div>
+        <!-- <label for="cnfpasswd">Confirm Password</label> -->
+        <div class="form-el">
+        <input type="password" name="cnfpasswd" placeholder="Confirm Password">
+        </div>
+
+        <div class="privacy">
+        <p><input type="checkbox"> I accept the privacy policy and T&C.</p>
+        </div>
+
+        <div class="form-sign">
+        <input type="submit" value="Sign Up">
+        </div>
+    </form>
+        <div class="btn-index">
+      <button><a href="login.html">Already have an account</a></button>
+    </div>
+  </div>
+  </section>
+  </body>
+</html>
